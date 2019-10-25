@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Logged In{% endblock %}
+{% block content %}
+
+<div class="container">
+<div class="row">
+
+<div class="jumbotron">
+
+<h1>Hello! Welcome {{username}}</h1>
+  <p>Thank you for logging in.</p>
+  <p>You are on your Dashboard</p>
+  <p>Please Give us your feedback</p>
+  <a href="/contact">Your Feedback</a>
+<p><a href="/logout/">Logout</a></p>
+
+
+</div>
+</div>
+</div>
+{% endblock %}
